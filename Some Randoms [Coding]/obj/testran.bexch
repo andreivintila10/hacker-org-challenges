@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__testran.o
+[PROJECT FILES]
+C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\randoms.gpr
+20190510133122
+[BOUND OBJECT FILES]
+C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\obj\random.o
+C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\obj\testran.o
+[GENERATED SOURCE FILES]
+b__testran.ads
+b__testran.adb
+b__testran.ali
+[RESULTING OPTIONS]
+-LC:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\obj\
+-LC:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

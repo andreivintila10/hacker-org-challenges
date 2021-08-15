@@ -1,0 +1,87 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U random%b		random.adb		e32d7e51 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W calendar%s		calendar.ads		calendar.ali
+
+U random%s		random.ads		56a99ac4 BN EE NE OO PK GE
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-calend.ads		20180524051738 372815c8 ada.calendar%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D calendar.ads		20180524051736 2cb525cd calendar%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D random.ads		20080411210336 56a99ac4 random%s
+D random.adb		20080411210406 112c7202 random%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|2r6 3r5
+X 2 a-calend.ads
+42I9*Time<211I9> 13|14r23
+54O12*Day_Duration{duration} 13|15r23
+56V13*Clock{42I9} 13|20s21
+67V13*Seconds{54O12} 13|21s15
+211I9 Time_Rep<long_long_integer>
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 3r9
+263U14*Put_Line 13|39s7
+X 9 calendar.ads
+18K9*Calendar=18:30 13|2w19 3r18
+X 12 random.ads
+2F9 FLOAT_ITEM 7r38 9r29 11r34 13|7r13 8r13 9r13 10r13 16r23 18r23 22r15
+. 24r24 25r41 30r35 31r8 35r25 43r26 49r31 50r19 55r19
+3k9*Random 2z9 13l5 13e11 13|5b14 60l5 60t11
+5U14*Set_Seed 13|13b11 27l5 27t13
+7U14*Force_Seed 7>25 13|30b11 40l5 40t15
+7*25 Start_Seed{2F9} 13|30b22 34r28 35r12 36r17
+9V13*Get_Seed{2F9} 13|43b10 46l5 46t13
+11V13*Random_Number{2F9} 13|49b10 58l5 58t18
+X 13 random.adb
+7*1 X_initial{12|2F9} 26m4 36m4 45r11 53r16 56m4
+8*1 M{12|2F9}
+9*1 A{12|2F9} 53r12
+10*1 C{12|2F9} 53r28
+14i4 Time_And_Date{2|42I9} 20m4 21r23
+15o4 All_Day{2|54O12} 21m4 22r26 24r35
+16*4 Minutes{12|2F9} 22m4 23r27
+17i4 Int_Minutes{integer} 23m4 25r52
+18*4 Part_Of_A_Minute{12|2F9} 24m4
+31*1 Temp{12|2F9} 35m4
+32i1 Natural_Temp{natural} 34m4 35r36
+50*4 Temp{12|2F9} 53m4 54r28 55m4 55r12 56r17 57r11
+51i4 Natural_Temp{natural} 54m4 55r30
+

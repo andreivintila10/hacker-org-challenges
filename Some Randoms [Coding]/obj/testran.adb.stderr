@@ -1,0 +1,2 @@
+testran.adb:16:04: warning: variable "Events" is never read and never assigned
+testran.adb:17:04: warning: variable "Int_Rand" is never read and never assigned

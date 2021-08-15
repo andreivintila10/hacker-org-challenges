@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\andrei\Desktop\Hacker\Didactic Feedback Cipher Long 2 [Crypto]\brute_force\brute_force>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\andrei\Desktop\Hacker\Didactic Feedback Cipher Long 2 [Crypto]\brute_force\brute_force\kernel.cu" 
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(70): warning : variable "temp" was declared but never referenced
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(131): warning : conversion from a string literal to "char *" is deprecated
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(131): warning : conversion from a string literal to "char *" is deprecated
+  kernel.cu
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(15): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(137): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(163): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'time_t'
+  C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(163): note: consider using '%lld' in the format string
+  C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(163): note: consider using '%Id' in the format string
+  C:/Users/andrei/Desktop/Hacker/Didactic Feedback Cipher Long 2 [Crypto]/brute_force/brute_force/kernel.cu(163): note: consider using '%I64d' in the format string
+  brute_force.vcxproj -> C:\Users\andrei\Desktop\Hacker\Didactic Feedback Cipher Long 2 [Crypto]\brute_force\x64\Debug\brute_force.exe

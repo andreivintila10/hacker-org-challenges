@@ -1,0 +1,4 @@
+FOR /L %i IN (1,1,22225) DO (
+  echo "telnet http://www.hacker.org/challenge/misc/one.php %i"
+)
+pause

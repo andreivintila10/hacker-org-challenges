@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\randoms.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\randoms.gpr</vfs_project>
+      <vfs_file>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\src\testran.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 7" >
+      <vfs_project>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\randoms.gpr</vfs_project>
+      <vfs_file>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\src\testran.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 16" >
+      <vfs_project>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\randoms.gpr</vfs_project>
+      <vfs_file>C:\Users\andrei\Desktop\Hacker\Some Randoms [Coding]\src\testran.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
